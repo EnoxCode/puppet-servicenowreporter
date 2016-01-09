@@ -1,4 +1,9 @@
-# servicereport
+# servicereporter
+
+## To Do
+* Error Control servicenow.rb
+* ServiceNow update set
+
 
 #### Table of Contents
 
@@ -39,8 +44,11 @@ It is also possible to post the results to a different webservice. Use the servi
 #### servicenow_password ####
 #### servicenow_instance ####
 #### servicenow_webservice ####
+Default value is ```/api/now/import/u_service_puppet_changes```. Change if nescecary.
+#### puppet_config_dir ####
+Default value is /etc/puppetlabs/puppet/. For PE. Change to other directory for puppet open source.
 
-### Dependencies ###
+### Dependencies / Gems ###
 * Faraday
 
 ## Limitations
