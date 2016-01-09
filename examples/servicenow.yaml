@@ -1,0 +1,6 @@
+--- 
+servicenow: 
+  instance: "https://instancename.service-now.com"
+  password: "password"
+  user: "username"
+  webservice: "/api/now/import/u_service_puppet_changes"

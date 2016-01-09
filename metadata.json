@@ -1,0 +1,14 @@
+{
+  "name": "puppet-servicereport",
+  "version": "0.1.0",
+  "author": "Luc Raeskin",
+  "summary": "A custom reporter for servicenow",
+  "license": "Apache-2.0",
+  "source": "https://github.com/lucraeskin/puppet-servicenowreport",
+  "project_page": "https://github.com/lucraeskin/puppet-servicenowreport",
+  "issues_url": "https://github.com/lucraeskin/puppet-servicenowreport/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
