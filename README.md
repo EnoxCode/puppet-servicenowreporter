@@ -3,7 +3,7 @@
 ## To Do
 * Error Control servicenow.rb
 * ServiceNow update set
-
+* Class changing puppet.conf
 
 #### Table of Contents
 
