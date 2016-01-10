@@ -1,7 +1,7 @@
 require 'spec_helper'
-describe 'servicereport' do
+describe 'servicenowreporter' do
 
   context 'with defaults for all parameters' do
-    it { should contain_class('servicereport') }
+    it { should contain_class('servicernoweporter') }
   end
 end
