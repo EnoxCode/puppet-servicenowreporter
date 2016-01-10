@@ -1,3 +1,4 @@
+![Build Status](https://travis-ci.org/lucraeskin/puppet-servicenowreporter.svg?branch=master)
 # servicereporter
 
 ## To Do
