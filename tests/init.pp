@@ -9,7 +9,7 @@
 # Learn more about module testing here:
 # http://docs.puppetlabs.com/guides/tests_smoke.html
 #
-class { 'servicenowreporter':
+class { 'servicenowreporter'
 	serviccenow_user: 'test',
 	servicenow_pass: 'password',
 	servicenow_instance: 'https://instance.service-now.com',
