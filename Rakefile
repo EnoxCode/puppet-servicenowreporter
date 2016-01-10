@@ -2,7 +2,6 @@ require 'rubygems' if RUBY_VERSION < '1.9.0'
 require 'puppetlabs_spec_helper/rake_tasks'
 require 'puppet-lint/tasks/puppet-lint'
 require 'puppet-syntax/tasks/puppet-syntax'
-require 'metadata-json-lint/rake_task'
 
 begin
   require 'puppet_blacksmith/rake_tasks'
@@ -30,6 +29,5 @@ desc "Run syntax, lint, and spec tests."
 task :test => [
   :syntax,
   :lint,
-  :metadata_lint,
   :spec,
 ]
