@@ -48,7 +48,7 @@ class servicenowreporter (
   String $servicenow_instance = undef,
   String $servicenow_webservice = '/api/now/import/u_service_puppet_changes',
   String $puppet_config_dir = '/etc/puppetlabs/puppet'
-	) {
+  ) {
 
   package { 'faraday':
     ensure   => present,
