@@ -1,5 +1,5 @@
 {
-  "name": "puppet-servicereport",
+  "name": "puppet-servicenowreporter",
   "version": "0.1.0",
   "author": "Luc Raeskin",
   "summary": "A custom reporter for servicenow",
