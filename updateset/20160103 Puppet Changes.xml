@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2016-01-03 13:07:14">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>20151130 - LR - Puppet Integration Reports</name>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>4ae13b384fd8d600423330318110c760</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>e66ee0244f341240423330318110c7e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_puppet_changes_u_change</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_change" table="u_puppet_changes"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Change&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_change&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_puppet_changes&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="change_request"&gt;change_request&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-11 01:32:28&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;d42273344fd8d600423330318110c741&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_puppet_changes_u_change&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-12-11 01:32:28&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>226ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes.u_change</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_puppet_changes_u_status_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_status" label="Status" language="en" table="u_puppet_changes"><sys_documentation action="INSERT_OR_UPDATE"><element>u_status</element><help/><hint/><label>Status</label><language>en</language><name>u_puppet_changes</name><plural>Status</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:31</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3dd27f384fd8d600423330318110c788</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_puppet_changes_u_status_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:31</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>226ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>Puppet Changes.Status</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_related_change_request_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="change_request" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Change Request - Default view" name="change_request" related_list="NULL" sys_domain="global" view="Default view">1f9dbf3c4fd8d600423330318110c741</list_id><order_by/><position>0</position><related_list>task_ci.task</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 02:19:35</sys_created_on><sys_id>df9dbf3c4fd8d600423330318110c741</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:19:35</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Change Request - Default view" name="change_request" related_list="NULL" sys_domain="global" view="Default view">1f9dbf3c4fd8d600423330318110c741</list_id><order_by/><position>1</position><related_list>task_cmdb_ci_service.task</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 02:19:35</sys_created_on><sys_id>539dbf3c4fd8d600423330318110c742</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:19:35</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Change Request - Default view" name="change_request" related_list="NULL" sys_domain="global" view="Default view">1f9dbf3c4fd8d600423330318110c741</list_id><order_by/><position>2</position><related_list>sysapproval_approver.sysapproval</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 02:19:35</sys_created_on><sys_id>d39dbf3c4fd8d600423330318110c742</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:19:35</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Change Request - Default view" name="change_request" related_list="NULL" sys_domain="global" view="Default view">1f9dbf3c4fd8d600423330318110c741</list_id><order_by/><position>3</position><related_list>change_task.change_request</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 02:19:35</sys_created_on><sys_id>579dbf3c4fd8d600423330318110c742</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:19:35</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Change Request - Default view" name="change_request" related_list="NULL" sys_domain="global" view="Default view">1f9dbf3c4fd8d600423330318110c741</list_id><order_by/><position>4</position><related_list>problem.rfc</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 02:19:35</sys_created_on><sys_id>d79dbf3c4fd8d600423330318110c742</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:19:35</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Change Request - Default view" name="change_request" related_list="NULL" sys_domain="global" view="Default view">1f9dbf3c4fd8d600423330318110c741</list_id><order_by/><position>5</position><related_list>incident.rfc</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 02:19:35</sys_created_on><sys_id>5b9dbf3c4fd8d600423330318110c742</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:19:35</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Change Request - Default view" name="change_request" related_list="NULL" sys_domain="global" view="Default view">1f9dbf3c4fd8d600423330318110c741</list_id><order_by/><position>6</position><related_list>incident.caused_by</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 02:19:35</sys_created_on><sys_id>db9dbf3c4fd8d600423330318110c742</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:19:35</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Change Request - Default view" name="change_request" related_list="NULL" sys_domain="global" view="Default view">1f9dbf3c4fd8d600423330318110c741</list_id><order_by/><position>7</position><related_list>u_puppet_changes.u_change</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 02:19:35</sys_created_on><sys_id>5f9dbf3c4fd8d600423330318110c742</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:19:35</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Change Request - Default view</calculated_name><filter/><name>change_request</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 02:19:35</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1f9dbf3c4fd8d600423330318110c741</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change Request - Default view</sys_name><sys_package display_value="Change Management Collision Detector" source="com.snc.change.collision">c567bb044f330200423330318110c7bb</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_related_change_request_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:19:35</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>226ee0244f341240423330318110c7e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Request</target_name>
+<type>Related Lists</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_puppet_changes_u_status</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_status" table="u_puppet_changes"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Status&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_status&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_puppet_changes&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-11 01:32:29&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;4352bff44fd8d600423330318110c772&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Status&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_puppet_changes_u_status&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-12-11 01:32:29&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>266ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes.u_status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_21d27f384fd8d600423330318110c77e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_puppet_changes</description><name>u_puppet_changes</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:30</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>21d27f384fd8d600423330318110c77e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_puppet_changes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_21d27f384fd8d600423330318110c77e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>266ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_d6d4b7384fd8d600423330318110c7eb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="d6d4b7384fd8d600423330318110c7eb" sys_domain="global" table="u_service_puppet_changes" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:41:17</sys_created_on><sys_id>1ad4b7384fd8d600423330318110c7ec</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_service_puppet_changes" sys_domain="global" view="Default view">d6d4b7384fd8d600423330318110c7eb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:41:17</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_configuration_version</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:41:17</sys_created_on><sys_id>5ad4b7384fd8d600423330318110c7ec</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_service_puppet_changes" sys_domain="global" view="Default view">d6d4b7384fd8d600423330318110c7eb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:41:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_environment</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:41:17</sys_created_on><sys_id>9ad4b7384fd8d600423330318110c7ec</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_service_puppet_changes" sys_domain="global" view="Default view">d6d4b7384fd8d600423330318110c7eb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:41:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:41:17</sys_created_on><sys_id>dad4b7384fd8d600423330318110c7ec</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_service_puppet_changes" sys_domain="global" view="Default view">d6d4b7384fd8d600423330318110c7eb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:41:17</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_host</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:41:17</sys_created_on><sys_id>1ed4b7384fd8d600423330318110c7ec</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_service_puppet_changes" sys_domain="global" view="Default view">d6d4b7384fd8d600423330318110c7eb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:41:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_status</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:41:17</sys_created_on><sys_id>5ed4b7384fd8d600423330318110c7ec</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_service_puppet_changes" sys_domain="global" view="Default view">d6d4b7384fd8d600423330318110c7eb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:41:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:41:17</sys_created_on><sys_id>9ed4b7384fd8d600423330318110c7ec</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_service_puppet_changes" sys_domain="global" view="Default view">d6d4b7384fd8d600423330318110c7eb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:41:17</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_service_puppet_changes</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:41:17</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d6d4b7384fd8d600423330318110c7eb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_service_puppet_changes</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_d6d4b7384fd8d600423330318110c7eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:41:17</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>266ee0244f341240423330318110c7e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_service_puppet_changes</table>
+<target_name>Service Puppet Changes</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_3e6106454f9cd600423330318110c704</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 11:55:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>3e6106454f9cd600423330318110c704</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Puppet Integration</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_3e6106454f9cd600423330318110c704</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 11:55:49</sys_updated_on><title>Puppet Integration</title><view_name/></sys_app_application></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>2a6ee0244f341240423330318110c7e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table/>
+<target_name>Puppet Integration</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_service_puppet_changes_u_host</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_host" table="u_service_puppet_changes"><active>true</active><array>false</array><attributes>import_attribute_name=u_host,edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>host</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_host</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_service_puppet_changes</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:36:25</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>c3b33b384fd8d600423330318110c7a8</sys_id><sys_mod_count>1</sys_mod_count><sys_name>host</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>true</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_service_puppet_changes_u_host</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:03:37</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>true</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>2a6ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_service_puppet_changes</table>
+<target_name>Service Puppet Changes.host</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_71d27f384fd8d600423330318110c780</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:30</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>71d27f384fd8d600423330318110c780</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_puppet_changes.u_puppet_changes_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_puppet_changes">b5d27f384fd8d600423330318110c77f</sys_security_acl><sys_update_name>sys_security_acl_role_71d27f384fd8d600423330318110c780</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:30</sys_updated_on><sys_user_role display_value="u_puppet_changes_user" name="u_puppet_changes_user">11d23b384fd8d600423330318110c7b1</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>2a6ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes.u_puppet_changes_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_theme_ea2ebcfd4f330200423330318110c7a8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_theme"><sys_ui_theme action="INSERT_OR_UPDATE"><active>true</active><css>/* Header Colors */&#13;
+/* Search text color */ &#13;
+$search-text-color: #eee&#13;
+/* Topbar background color*/&#13;
+$navpage-header-bg: #0058A3&#13;
+/* Topbar text color */&#13;
+$navpage-header-color: #fff&#13;
+/* Bottom border color on topbar */ &#13;
+$navpage-header-divider-color: #112741&#13;
+&#13;
+/* Left nav and navigation toolbar background color */&#13;
+/* Navigator hover color */&#13;
+$nav-highlight-main: #244973&#13;
+/* Background for expanded navigation items */&#13;
+$subnav-background-color: #5596D0&#13;
+/* Backgorund for navigator (left side only). */&#13;
+$navpage-nav-bg: #CC2031&#13;
+/* Background for Favorites list, history list, and Connect list background. */&#13;
+$navpage-nav-bg-sub: #3A73B5&#13;
+/* Text color in main navigation */&#13;
+$navpage-nav-color-sub: #fff&#13;
+/* Text color when hovering over items in main nav */&#13;
+$navpage-nav-mod-text-hover: #fff&#13;
+/* Divider color in Navigator */&#13;
+$nav-hr-color: #244D81&#13;
+&#13;
+/* Navigator tabs */&#13;
+/* Active nav item underneath search */&#13;
+$nav-highlight-bar-active: #3A93FA&#13;
+/* Inactive nav items underneath search */&#13;
+$nav-highlight-bar-inactive: #8DAECB&#13;
+/* Background for currently selected navigation item underneath search */&#13;
+$navpage-nav-selected-bg: #ADD5F5&#13;
+/* Color of icon for currently active nav item. */&#13;
+$navpage-nav-selected-color: #285080&#13;
+/* Color of icons for non inactive nav items.*/&#13;
+$navpage-nav-unselected-color: #ADD5F5&#13;
+&#13;
+/* Navigator Application text */&#13;
+/* Color for latest connect messages in right bar. */&#13;
+$connect-latest-message: #c2d6ff&#13;
+/* Timestamp header backgrounds in History tab*/&#13;
+$nav-timeago-header-color: #316198&#13;
+/* Core content text color */&#13;
+$navpage-nav-app-text: #fff&#13;
+/* Core content text color hover*/&#13;
+$navpage-nav-app-text-hover: #fff&#13;
+&#13;
+/* Color of outline for search */&#13;
+$navpage-nav-border: #8cbaf2&#13;
+</css><device>concourse</device><name>APG</name><sys_class_name>sys_ui_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-11-18 18:25:39</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>ea2ebcfd4f330200423330318110c7a8</sys_id><sys_mod_count>4</sys_mod_count><sys_name>APG</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_theme_ea2ebcfd4f330200423330318110c7a8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 15:24:29</sys_updated_on></sys_ui_theme></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>2a6ee0244f341240423330318110c7e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table/>
+<target_name>APG</target_name>
+<type>Theme</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_0b027b384fd8d600423330318110c7c0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Puppet Changes</label><live_feed_enabled>false</live_feed_enabled><name>u_puppet_changes</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:30</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>0b027b384fd8d600423330318110c7c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Puppet Changes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_0b027b384fd8d600423330318110c7c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:30</sys_updated_on><update_access>false</update_access><user_role display_value="u_puppet_changes_user" name="u_puppet_changes_user">11d23b384fd8d600423330318110c7b1</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>2e6ee0244f341240423330318110c7e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>Puppet Changes</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_puppet_changes_u_change_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_change" label="Change" language="en" table="u_puppet_changes"><sys_documentation action="INSERT_OR_UPDATE"><element>u_change</element><help/><hint/><label>Change</label><language>en</language><name>u_puppet_changes</name><plural>Changes</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:31</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>39d27f384fd8d600423330318110c786</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_puppet_changes_u_change_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:31</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>2e6ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>Puppet Changes.Change</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_15f377784fd8d600423330318110c73c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd hh:mm:ss&lt;/date_format&gt;&lt;map display_value="Service Puppet Changes"&gt;6bb3f3784fd8d600423330318110c7dc&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_environment&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_service_puppet_changes&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-11 01:37:43&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;15f377784fd8d600423330318110c73c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_environment&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_15f377784fd8d600423330318110c73c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-12-11 01:37:43&lt;/sys_updated_on&gt;&lt;target_field&gt;u_environment&lt;/target_field&gt;&lt;target_table&gt;u_puppet_changes&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>2e6ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table/>
+<target_name>u_environment</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_puppet_changes_u_ci</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_ci" table="u_puppet_changes"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;CI&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_ci&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_puppet_changes&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="cmdb_ci"&gt;cmdb_ci&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-11 01:32:28&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;4c1273f44fd8d600423330318110c7e9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;CI&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_puppet_changes_u_ci&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-12-11 01:32:28&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>626ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes.u_ci</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_puppet_changes__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Puppet Changes" language="en" table="u_puppet_changes"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Puppet Changes</label><language>en</language><name>u_puppet_changes</name><plural>Puppet Changes</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:31</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>35d27f384fd8d600423330318110c785</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Puppet Changes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_puppet_changes__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:31</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>626ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>Puppet Changes</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_1729a29cff723100f03bffffffffff0d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="1729a29cff723100f03bffffffffff0d" sys_domain="global" table="wf_workflow_version" version="3" view="new_workflow"><sys_ui_annotation action="INSERT_OR_UPDATE"><is_plain_text>false</is_plain_text><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:56</sys_created_on><sys_id>80474f924f945a00423330318110c757</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:56</sys_updated_on><text>New Workflow Form</text><type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type></sys_ui_annotation><sys_ui_element action="INSERT_OR_UPDATE"><element>80474f924f945a00423330318110c757</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:56</sys_created_on><sys_id>c0474f924f945a00423330318110c757</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="df296e5cff723100f03bffffffffff87">1729a29cff723100f03bffffffffff0d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:56</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>wf_target_parents</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:56</sys_created_on><sys_id>04474f924f945a00423330318110c757</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Get Ref Target Parents">4a5c96f69fb102005d8df8c8152e70d8</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="df296e5cff723100f03bffffffffff87">1729a29cff723100f03bffffffffff0d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:56</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:56</sys_created_on><sys_id>44474f924f945a00423330318110c757</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="df296e5cff723100f03bffffffffff87">1729a29cff723100f03bffffffffff0d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:56</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:56</sys_created_on><sys_id>84474f924f945a00423330318110c757</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="df296e5cff723100f03bffffffffff87">1729a29cff723100f03bffffffffff0d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>table</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:56</sys_created_on><sys_id>c4474f924f945a00423330318110c757</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="df296e5cff723100f03bffffffffff87">1729a29cff723100f03bffffffffff0d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_automated_process</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:56</sys_created_on><sys_id>08474f924f945a00423330318110c757</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="df296e5cff723100f03bffffffffff87">1729a29cff723100f03bffffffffff0d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:56</sys_created_on><sys_id>48474f924f945a00423330318110c757</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="df296e5cff723100f03bffffffffff87">1729a29cff723100f03bffffffffff0d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:56</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:56</sys_created_on><sys_id>88474f924f945a00423330318110c757</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="df296e5cff723100f03bffffffffff87">1729a29cff723100f03bffffffffff0d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:56</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:56</sys_created_on><sys_id>c8474f924f945a00423330318110c757</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="df296e5cff723100f03bffffffffff87">1729a29cff723100f03bffffffffff0d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>checked_out_by</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:56</sys_created_on><sys_id>0c474f924f945a00423330318110c757</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="df296e5cff723100f03bffffffffff87">1729a29cff723100f03bffffffffff0d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>published</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:56</sys_created_on><sys_id>4c474f924f945a00423330318110c757</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="df296e5cff723100f03bffffffffff87">1729a29cff723100f03bffffffffff0d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>wf_workflow_version</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>john.maher</sys_created_by><sys_created_on>2015-03-10 21:08:22</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1729a29cff723100f03bffffffffff0d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>wf_workflow_version</sys_name><sys_overrides/><sys_package display_value="Workflow Runtime Engine" source="com.glideapp.workflow">90a433804f330200423330318110c7f5</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_1729a29cff723100f03bffffffffff0d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:56</sys_updated_on><sys_user/><title>false</title><view display_value="New Workflow" name="new_workflow">df296e5cff723100f03bffffffffff87</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>626ee0244f341240423330318110c7e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>wf_workflow_version</table>
+<target_name>Workflow Version</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view>new_workflow</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_service_puppet_changes_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_service_puppet_changes"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_service_puppet_changes</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:36:25</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>03b33b384fd8d600423330318110c7a7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_service_puppet_changes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>true</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_service_puppet_changes_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:03:36</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>true</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>666ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_service_puppet_changes</table>
+<target_name>Service Puppet Changes</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_31d27f384fd8d600423330318110c782</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_puppet_changes</description><name>u_puppet_changes</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:30</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>31d27f384fd8d600423330318110c782</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_puppet_changes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_31d27f384fd8d600423330318110c782</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>666ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_style_987d81c14f5cd600423330318110c7de</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><element>u_status</element><name>u_puppet_changes</name><style>background-color:#FF0000;</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 08:08:52</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>987d81c14f5cd600423330318110c7de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_puppet_changes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_style_987d81c14f5cd600423330318110c7de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 08:08:52</sys_updated_on><value>failed</value></sys_ui_style></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>666ee0244f341240423330318110c7e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes</target_name>
+<type>Style</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_228146454f9cd600423330318110c78d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Puppet Integration">3e6106454f9cd600423330318110c704</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Puppet Changes</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_puppet_changes</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 11:56:28</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>228146454f9cd600423330318110c78d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Puppet Changes</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_228146454f9cd600423330318110c78d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 11:56:28</sys_updated_on><timeline_page/><title>Puppet Changes</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>6a6ee0244f341240423330318110c7e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>Puppet Changes</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_service_puppet_changes_u_status</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_status" table="u_service_puppet_changes"><active>true</active><array>false</array><attributes>import_attribute_name=u_status,edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>runStatus</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_status</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_service_puppet_changes</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:36:25</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>47b33b384fd8d600423330318110c7a9</sys_id><sys_mod_count>2</sys_mod_count><sys_name>runStatus</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_service_puppet_changes_u_status</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:03:38</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>6a6ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_service_puppet_changes</table>
+<target_name>Service Puppet Changes.runStatus</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_b5d27f384fd8d600423330318110c781</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:30</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b5d27f384fd8d600423330318110c781</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_puppet_changes.u_puppet_changes_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_puppet_changes">f9d27f384fd8d600423330318110c780</sys_security_acl><sys_update_name>sys_security_acl_role_b5d27f384fd8d600423330318110c781</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:30</sys_updated_on><sys_user_role display_value="u_puppet_changes_user" name="u_puppet_changes_user">11d23b384fd8d600423330318110c7b1</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>6a6ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes.u_puppet_changes_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_11d23b384fd8d600423330318110c7b1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_puppet_changes_user</name><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:28</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>11d23b384fd8d600423330318110c7b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_puppet_changes_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_11d23b384fd8d600423330318110c7b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:28</sys_updated_on></sys_user_role></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>6a6ee0244f341240423330318110c7e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table/>
+<target_name>u_puppet_changes_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_b5c4f3804f330200423330318110c7a5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>true</actions_access><alter_access>true</alter_access><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Workflow Version</label><live_feed_enabled>false</live_feed_enabled><name>wf_workflow_version</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2015-11-13 21:14:08</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b5c4f3804f330200423330318110c7a5</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Workflow Version</sys_name><sys_package display_value="Workflow Runtime Engine" source="com.glideapp.workflow">90a433804f330200423330318110c7f5</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_b5c4f3804f330200423330318110c7a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:25</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>6e6ee0244f341240423330318110c7e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>wf_workflow_version</table>
+<target_name>Workflow Version</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_puppet_changes_u_ci_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_ci" label="CI" language="en" table="u_puppet_changes"><sys_documentation action="INSERT_OR_UPDATE"><element>u_ci</element><help/><hint/><label>CI</label><language>en</language><name>u_puppet_changes</name><plural>CIs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:31</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>71d27f384fd8d600423330318110c787</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CI</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_puppet_changes_u_ci_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:31</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>6e6ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>Puppet Changes.CI</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_6624b3784fd8d600423330318110c722</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd hh:mm:ss&lt;/date_format&gt;&lt;map display_value="Service Puppet Changes"&gt;6bb3f3784fd8d600423330318110c7dc&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_status&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_service_puppet_changes&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-11 01:38:17&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;6624b3784fd8d600423330318110c722&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_status&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_6624b3784fd8d600423330318110c722&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-12-11 01:38:17&lt;/sys_updated_on&gt;&lt;target_field&gt;u_status&lt;/target_field&gt;&lt;target_table&gt;u_puppet_changes&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>6e6ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table/>
+<target_name>u_status</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_puppet_changes_u_enforced</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_enforced" table="u_puppet_changes"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Enforced&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_enforced&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_puppet_changes&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-11 01:32:29&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;eca27bf44fd8d600423330318110c70d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Enforced&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_puppet_changes_u_enforced&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-12-11 01:32:29&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>a26ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes.u_enforced</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_service_puppet_changes_u_status_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_status" label="runStatus" language="en" table="u_service_puppet_changes"><sys_documentation action="INSERT_OR_UPDATE"><element>u_status</element><help/><hint/><label>runStatus</label><language>en</language><name>u_service_puppet_changes</name><plural>runStatus</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:36:25</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>8fb33b384fd8d600423330318110c7a9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>runStatus</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_service_puppet_changes_u_status_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:03:38</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>a26ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_service_puppet_changes</table>
+<target_name>Service Puppet Changes.runStatus</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_a7f2b7384fd8d600423330318110c7cd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="a7f2b7384fd8d600423330318110c7cd" sys_domain="global" table="u_puppet_changes" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:33:10</sys_created_on><sys_id>6ff2b7384fd8d600423330318110c7d0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_puppet_changes" sys_domain="global" view="Default view">a7f2b7384fd8d600423330318110c7cd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:33:10</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_change</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:33:10</sys_created_on><sys_id>aff2b7384fd8d600423330318110c7d0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_puppet_changes" sys_domain="global" view="Default view">a7f2b7384fd8d600423330318110c7cd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:33:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_ci</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:33:10</sys_created_on><sys_id>eff2b7384fd8d600423330318110c7d0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_puppet_changes" sys_domain="global" view="Default view">a7f2b7384fd8d600423330318110c7cd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:33:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_catalog_version</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:33:10</sys_created_on><sys_id>23f2b7384fd8d600423330318110c7d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_puppet_changes" sys_domain="global" view="Default view">a7f2b7384fd8d600423330318110c7cd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:33:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:33:10</sys_created_on><sys_id>63f2b7384fd8d600423330318110c7d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_puppet_changes" sys_domain="global" view="Default view">a7f2b7384fd8d600423330318110c7cd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:33:10</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_enforced</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:33:10</sys_created_on><sys_id>a3f2b7384fd8d600423330318110c7d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_puppet_changes" sys_domain="global" view="Default view">a7f2b7384fd8d600423330318110c7cd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:33:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_environment</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:33:10</sys_created_on><sys_id>e3f2b7384fd8d600423330318110c7d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_puppet_changes" sys_domain="global" view="Default view">a7f2b7384fd8d600423330318110c7cd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:33:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_status</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:33:10</sys_created_on><sys_id>27f2b7384fd8d600423330318110c7d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_puppet_changes" sys_domain="global" view="Default view">a7f2b7384fd8d600423330318110c7cd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:33:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:33:10</sys_created_on><sys_id>67f2b7384fd8d600423330318110c7d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_puppet_changes" sys_domain="global" view="Default view">a7f2b7384fd8d600423330318110c7cd</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:33:10</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_puppet_changes</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:33:10</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a7f2b7384fd8d600423330318110c7cd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_puppet_changes</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_a7f2b7384fd8d600423330318110c7cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:33:10</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>a26ee0244f341240423330318110c7e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>Puppet Changes</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_service_puppet_changes_u_configuration_version</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_configuration_version" table="u_service_puppet_changes"><active>true</active><array>false</array><attributes>import_attribute_name=u_configuration_version,edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>configuration_version</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_configuration_version</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_service_puppet_changes</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:36:25</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>5bb33b384fd8d600423330318110c7ab</sys_id><sys_mod_count>1</sys_mod_count><sys_name>configuration_version</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>true</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_service_puppet_changes_u_configuration_version</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:03:38</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>true</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>a66ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_service_puppet_changes</table>
+<target_name>Service Puppet Changes.configuration_version</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_b5d27f384fd8d600423330318110c77f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_puppet_changes</description><name>u_puppet_changes</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:30</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b5d27f384fd8d600423330318110c77f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_puppet_changes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_b5d27f384fd8d600423330318110c77f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>a66ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_style_f61eb77c4fd8d600423330318110c710</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><element>u_status</element><name>u_puppet_changes</name><style>background-color:#0059FF;</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 02:22:20</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>f61eb77c4fd8d600423330318110c710</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_puppet_changes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_style_f61eb77c4fd8d600423330318110c710</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 08:08:13</sys_updated_on><value>changed</value></sys_ui_style></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>a66ee0244f341240423330318110c7e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes</target_name>
+<type>Style</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_dbb3f3784fd8d600423330318110c79d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Web Services">18f23e670a0a0b2400c55b122be52373</application><assessment/><content_page/><device_type/><filter/><hint>User customized web service</hint><homepage/><image>images/icons/web_services_mapped.gifx</image><link_type>DIRECT</link_type><map_page/><mobile_title>Service Puppet Changes</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>1050</order><override_menu_roles>false</override_menu_roles><query>v_ws_editor.do?sysparm_query=name=u_service_puppet_changes</query><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:36:26</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>dbb3f3784fd8d600423330318110c79d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Puppet Changes</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_dbb3f3784fd8d600423330318110c79d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:36:26</sys_updated_on><timeline_page/><title>Service Puppet Changes</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>aa6ee0244f341240423330318110c7e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table/>
+<target_name>Service Puppet Changes</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_wf_workflow_version_u_automated_process</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_automated_process" table="wf_workflow_version"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Automated Process&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_automated_process&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;wf_workflow_version&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-15 14:12:24&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;c2070b924f945a00423330318110c798&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Automated Process&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_wf_workflow_version_u_automated_process&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-12-15 14:12:24&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>aa6ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>wf_workflow_version</table>
+<target_name>Workflow Version.Automated Process</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_f9d27f384fd8d600423330318110c77e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:30</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>f9d27f384fd8d600423330318110c77e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_puppet_changes.u_puppet_changes_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_puppet_changes">21d27f384fd8d600423330318110c77e</sys_security_acl><sys_update_name>sys_security_acl_role_f9d27f384fd8d600423330318110c77e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:30</sys_updated_on><sys_user_role display_value="u_puppet_changes_user" name="u_puppet_changes_user">11d23b384fd8d600423330318110c7b1</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>aa6ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes.u_puppet_changes_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_puppet_changes_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_puppet_changes"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_puppet_changes&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-11 01:32:30&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;35d27f384fd8d600423330318110c783&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_puppet_changes&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_puppet_changes_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-12-11 01:32:30&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>ae6ee0244f341240423330318110c7e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>Puppet Changes</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_puppet_changes_u_enforced_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_enforced" label="Enforced" language="en" table="u_puppet_changes"><sys_documentation action="INSERT_OR_UPDATE"><element>u_enforced</element><help/><hint/><label>Enforced</label><language>en</language><name>u_puppet_changes</name><plural>Enforced</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:31</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b9d27f384fd8d600423330318110c787</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Enforced</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_puppet_changes_u_enforced_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:31</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>ae6ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>Puppet Changes.Enforced</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_aa24b3784fd8d600423330318110c722</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd hh:mm:ss&lt;/date_format&gt;&lt;map display_value="Service Puppet Changes"&gt;6bb3f3784fd8d600423330318110c7dc&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_configuration_version&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_service_puppet_changes&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-11 01:38:18&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;aa24b3784fd8d600423330318110c722&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_configuration_version&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_aa24b3784fd8d600423330318110c722&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-12-11 01:38:18&lt;/sys_updated_on&gt;&lt;target_field&gt;u_catalog_version&lt;/target_field&gt;&lt;target_table&gt;u_puppet_changes&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>ae6ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table/>
+<target_name>u_configuration_version</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_puppet_changes_u_environment</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_environment" table="u_puppet_changes"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Environment&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_environment&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_puppet_changes&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-11 01:32:29&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;b0723b384fd8d600423330318110c7b0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Environment&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_puppet_changes_u_environment&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-12-11 01:32:29&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>e26ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes.u_environment</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_wf_workflow_version_u_automated_process_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_automated_process" label="Automated Process" language="en" table="wf_workflow_version"><sys_documentation action="INSERT_OR_UPDATE"><element>u_automated_process</element><help/><hint/><label>Automated Process</label><language>en</language><name>wf_workflow_version</name><plural>Automated Process</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:24</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>982743924f945a00423330318110c7b7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Automated Process</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_wf_workflow_version_u_automated_process_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:24</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>e26ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>wf_workflow_version</table>
+<target_name>Workflow Version.Automated Process</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_c163b77ec0a801647eea2a4a605890d7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="c163b77ec0a801647eea2a4a605890d7" sys_domain="global" table="wf_workflow_version" version="3" view=""><sys_ui_annotation action="INSERT_OR_UPDATE"><is_plain_text>false</is_plain_text><sys_created_by>admin</sys_created_by><sys_created_on>2015-03-31 02:22:56</sys_created_on><sys_id>8ef03e32ff433100bc86ffffffffff01</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-03-31 02:22:56</sys_updated_on><text>New Workflow Form</text><type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type></sys_ui_annotation><sys_ui_element action="INSERT_OR_UPDATE"><element>workflow_diagrammer_initialize.xml</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-03-31 02:22:56</sys_created_on><sys_id>cef03e32ff433100bc86ffffffffff01</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Workflow Diagrammer Initialize">0ab6470137232100b2cf04368e41f133</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="Default view">c163b77ec0a801647eea2a4a605890d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-03-31 02:22:56</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>8ef03e32ff433100bc86ffffffffff01</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-03-31 02:22:56</sys_created_on><sys_id>02f03e32ff433100bc86ffffffffff02</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="Default view">c163b77ec0a801647eea2a4a605890d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-03-31 02:22:56</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_automated_process</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-15 14:12:24</sys_created_on><sys_id>8c2743924f945a00423330318110c7b6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="wf_workflow_version" sys_domain="global" view="Default view">c163b77ec0a801647eea2a4a605890d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:24</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>wf_workflow_version</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>glide.maint</sys_created_by><sys_created_on>2008-06-25 20:21:55</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c163b77ec0a801647eea2a4a605890d7</sys_id><sys_mod_count>2</sys_mod_count><sys_name>wf_workflow_version</sys_name><sys_overrides display_value="">global</sys_overrides><sys_package display_value="Workflow Runtime Engine" source="com.glideapp.workflow">90a433804f330200423330318110c7f5</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_c163b77ec0a801647eea2a4a605890d7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-15 14:12:24</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>e26ee0244f341240423330318110c7e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>wf_workflow_version</table>
+<target_name>Workflow Version</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_service_puppet_changes_u_environment</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_environment" table="u_service_puppet_changes"><active>true</active><array>false</array><attributes>import_attribute_name=u_environment,edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>environment</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_environment</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_service_puppet_changes</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:36:25</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>c7b33b384fd8d600423330318110c7aa</sys_id><sys_mod_count>1</sys_mod_count><sys_name>environment</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>true</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_service_puppet_changes_u_environment</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:03:37</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>true</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>e66ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_service_puppet_changes</table>
+<target_name>Service Puppet Changes.environment</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_f9d27f384fd8d600423330318110c780</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_puppet_changes</description><name>u_puppet_changes</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:30</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>f9d27f384fd8d600423330318110c780</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_puppet_changes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_f9d27f384fd8d600423330318110c780</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>e66ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_style_fbad01c14f5cd600423330318110c71b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><element>u_status</element><name>u_puppet_changes</name><style>background-color:#80FF00;</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 08:09:24</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>fbad01c14f5cd600423330318110c71b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_puppet_changes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_style_fbad01c14f5cd600423330318110c71b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 08:09:24</sys_updated_on><value>unchanged</value></sys_ui_style></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>e66ee0244f341240423330318110c7e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes</target_name>
+<type>Style</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_03b33b384fd8d600423330318110c7a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Service Puppet Changes</label><live_feed_enabled>false</live_feed_enabled><name>u_service_puppet_changes</name><number_ref/><provider_class/><read_access>true</read_access><super_class display_value="Import Set Row" name="sys_import_set_row">96a3ff004f330200423330318110c7f3</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:36:25</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>03b33b384fd8d600423330318110c7a6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Service Puppet Changes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>true</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_03b33b384fd8d600423330318110c7a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 02:03:36</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>true</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>ea6ee0244f341240423330318110c7e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_service_puppet_changes</table>
+<target_name>Service Puppet Changes</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_puppet_changes_u_catalog_version_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_catalog_version" label="Catalog Version" language="en" table="u_puppet_changes"><sys_documentation action="INSERT_OR_UPDATE"><element>u_catalog_version</element><help/><hint/><label>Catalog Version</label><language>en</language><name>u_puppet_changes</name><plural>Catalog Versions</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:31</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>fdd27f384fd8d600423330318110c785</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Catalog Version</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_puppet_changes_u_catalog_version_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:31</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>ea6ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>Puppet Changes.Catalog Version</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_f9d27f384fd8d600423330318110c782</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:30</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>f9d27f384fd8d600423330318110c782</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_puppet_changes.u_puppet_changes_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_puppet_changes">31d27f384fd8d600423330318110c782</sys_security_acl><sys_update_name>sys_security_acl_role_f9d27f384fd8d600423330318110c782</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:30</sys_updated_on><sys_user_role display_value="u_puppet_changes_user" name="u_puppet_changes_user">11d23b384fd8d600423330318110c7b1</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>ea6ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes.u_puppet_changes_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_puppet_changes_u_catalog_version</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_catalog_version" table="u_puppet_changes"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Catalog Version&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_catalog_version&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_puppet_changes&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-11 01:32:29&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;854233b44fd8d600423330318110c76f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Catalog Version&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_puppet_changes_u_catalog_version&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-12-11 01:32:29&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>ee6ee0244f341240423330318110c7e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>u_puppet_changes.u_catalog_version</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_puppet_changes_u_environment_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_environment" label="Environment" language="en" table="u_puppet_changes"><sys_documentation action="INSERT_OR_UPDATE"><element>u_environment</element><help/><hint/><label>Environment</label><language>en</language><name>u_puppet_changes</name><plural>Environments</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-12-11 01:32:31</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>f1d27f384fd8d600423330318110c788</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Environment</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_puppet_changes_u_environment_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-12-11 01:32:31</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>ee6ee0244f341240423330318110c7e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table>u_puppet_changes</table>
+<target_name>Puppet Changes.Environment</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_map_6bb3f3784fd8d600423330318110c7dc</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Service Puppet Changes&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;true&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	
+	// Find CI and set in target record.
+	var ci = getCI(source.u_host);
+	if(ci){
+		target.u_ci = ci;
+	}else{
+		error = true;
+		error_message = "Host ("+source.u_host+") not found in the CMDB";
+	}
+
+	
+	//check to see if configuration is changed
+	if(source.u_status == 'changed'){
+		var latestVersion = getLatestVersion(ci);
+		// If there was a previous version check if config was the same. If so somebody changed something that puppet fixed.
+		if(latestVersion &amp;&amp; (latestVersion == source.u_configuration_version)){
+			target.u_enforced = true;
+			//Create Incident
+		}else{
+			gs.log('test1');
+			// New version, check if an open change is detected.
+			var change = getActiveChange(ci);
+			if(change){
+				target.u_change=change;
+			}
+		}	
+	}
+	
+})(source, target, map, log, action==="update");
+
+function getActiveChange(ci){
+	var gr = new GlideRecord('task_ci');
+	gr.addQuery('ci_item',ci);
+	gr.addQuery('task.active',true);
+	gr.addQuery('task.sys_class_name','change_request');
+	gr.setLimit(1);
+	gr.query();
+	while(gr.next()){
+		return gr.task.sys_id;
+	}
+}
+
+function getLatestVersion(ci){
+	var gr = new GlideRecord('u_puppet_changes');
+	gr.addQuery('u_ci',ci);
+	gr.orderBy('created');
+	gr.setLimit(1);
+	gr.query();
+	while(gr.next()){
+		return gr.u_catalog_version;		
+	}
+}
+
+function getCI(host){
+	var gr = new GlideRecord('cmdb_ci');
+	gr.addQuery('name',host);
+	gr.query();
+	while(gr.next()){
+		return gr.sys_id;
+	}
+}]]&gt;&lt;/script&gt;&lt;source_table&gt;u_service_puppet_changes&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-11 01:36:43&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;6bb3f3784fd8d600423330318110c7dc&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Service Puppet Changes&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_6bb3f3784fd8d600423330318110c7dc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2015-12-11 12:51:46&lt;/sys_updated_on&gt;&lt;target_table&gt;u_puppet_changes&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="20151130 - LR - Puppet Integration Reports">e66ee0244f341240423330318110c7e4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2016-01-03 13:07:13</sys_created_on>
+<sys_id>ee6ee0244f341240423330318110c7e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2016-01-03 13:07:13</sys_updated_on>
+<table/>
+<target_name>Service Puppet Changes</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
