@@ -210,16 +210,13 @@ Style/SpaceInsideParens:
 Style/LeadingCommentSpace:
   Enabled: true
 
-Style/SingleSpaceBeforeFirstArg:
-  Enabled: true
-
 Style/SpaceAfterColon:
   Enabled: true
 
 Style/SpaceAfterComma:
   Enabled: true
 
-Style/SpaceAfterControlKeyword:
+Style/SpaceAroundKeyword:
   Enabled: true
 
 Style/SpaceAfterMethodName:
@@ -463,7 +460,7 @@ Metrics/ParameterLists:
 Lint/RequireParentheses:
   Enabled: true
 
-Lint/SpaceBeforeFirstArg:
+Style/SpaceBeforeFirstArg:
   Enabled: true
 
 Style/ModuleFunction:

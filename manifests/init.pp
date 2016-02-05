@@ -1,6 +1,6 @@
 # Class: servicereporter
 # ===========================
-#
+# TODO: Rewrite help file
 # Full description of class servicereport here.
 #
 # Parameters
@@ -60,6 +60,6 @@ class servicenowreporter (
     owner   => root,
     group   => root,
     mode    => '0644',
-    content => template('servicenowreporter/servicenow.yaml.erb'),
+    content => template('servicenowreporter/servicenowreporter.yml.erb'),
   }
 }
